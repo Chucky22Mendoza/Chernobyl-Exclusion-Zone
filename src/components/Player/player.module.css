@@ -1,0 +1,16 @@
+.player {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.player button {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.player button img {
+  width: 5rem;
+  height: 5rem;
+}

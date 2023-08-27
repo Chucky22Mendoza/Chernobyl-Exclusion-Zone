@@ -1,0 +1,46 @@
+.cover {
+  background-image: url('../../../public/assets/cover.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.cover .blur {
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  background-color: var(--y-text-inverse);
+  opacity: .8;
+  padding: 3rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.cover h1 {
+  font-weight: 700;
+  font-size: 7rem;
+  line-height: 4rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  color: var(--y-text-primary);
+  max-width: 60rem;
+}
+
+.cover span {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-align: center;
+  letter-spacing: 0.05rem;
+  color: var(--y-bg-brand);
+}
