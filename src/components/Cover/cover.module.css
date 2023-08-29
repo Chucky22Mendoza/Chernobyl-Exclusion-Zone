@@ -20,10 +20,12 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  background-color: var(--y-text-inverse);
-  opacity: .8;
   padding: 3rem 1rem;
   border-radius: 1.5rem;
+  backdrop-filter: blur(1rem) saturate(360%);
+  -webkit-backdrop-filter: blur(1rem) saturate(360%);
+  background-color: rgba(43, 45, 48, 0.75);
+  border: .1rem solid rgba(255, 255, 255, 0.125);
 }
 
 .cover h1 {
@@ -32,7 +34,7 @@
   line-height: 4rem;
   text-align: center;
   letter-spacing: 0.05rem;
-  color: var(--y-text-primary);
+  color: var(--y-text-placeholder10);
   max-width: 60rem;
 }
 
@@ -42,5 +44,5 @@
   line-height: 2.4rem;
   text-align: center;
   letter-spacing: 0.05rem;
-  color: var(--y-bg-brand);
+  color: var(--y-btn-generic-disabled-text);
 }
